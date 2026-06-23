@@ -10,47 +10,46 @@
     "headline": "A unified portal for all Delta schools",
     "deck":     "The Delta Schools platform bridges the gap between disparate platforms, providing a high-performance entry point for DAS, DILS, and DMLS schools.",
     "btnExplore": "Explore All Platforms",
-    "btnDocs":    "Technical Documentation",
+    "btnDocs":    "Get Started",
     "floatTag":   "3 platforms, 1 portal"
   },
   "ecosystem": {
     "title": "Integrated Ecosystem",
-    "deck":  "Our hub provides direct access to the core pillars of our technical infrastructure. Each platform is optimised for specific organisational workflows.",
+    "deck":  "It combines modern learning tools and standard methods to ensure a high level of education for your children.",
     "das": {
       "label":   "DAS",
-      "body":    "Data Analytics Service provides advanced computational power to process complex datasets and generate actionable business intelligence.",
+      "body":    "Delta American School is an international school accredited by Cognia in Mansoura, Egypt. We offer an American curriculum from kindergarten through grade 12. We have been developing future leaders since 2011.",
       "link":    "Visit DAS Portal"
     },
     "dils": {
       "label":   "DILS",
-      "body":    "Digital Integration Layer Systems manage the seamless communication between legacy databases and modern cloud applications.",
+      "body":    "Delta International Schools in Mansoura offers the internationally accredited international education system (American Diploma) instead of the Egyptian curriculum, and qualifies students for international university entrance exams.",
       "link":    "Visit DILS Portal"
     },
     "dmls": {
       "label":   "DMLS",
-      "body":    "Dynamic Microservices Logistics handles the orchestration and scaling of containerised workloads across global regions.",
+      "body":    "Delta Modern Language School is a private school (in Mansoura) that provides (national) language education from kindergarten to secondary school, and integrates the Ministry's curricula in English with activities and building the student's personality.",
       "link":    "Visit DMLS Portal"
     }
   },
   "governance": {
     "title": "Unified Governance",
-    "body":  "Our centralised authentication and permission model ensures that your transition between DAS, DILS, and DMLS is fluid and secure. Manage everything from a single administrative console.",
-    "check1": "Single Sign-On across all platforms",
-    "check2": "Universal data API endpoints",
-    "check3": "Consolidated billing and usage reporting",
-    "btnSpecs": "View Hub Specifications"
+    "body":  "We guarantee you every comfort and convenience in the process of enrolling your child in one of our schools.",
+    "check1": "Explore all schools and choose what you want for your child",
+    "check2": "Excellent communication service throughout the week",
+    "check3": "Apply for your child from home",
+    "btnSpecs": "Discover all schools"
   },
   "cta": {
-    "headline":    "Ready to optimise your infrastructure?",
-    "deck":        "Join 500+ enterprises using CompilationHub as their primary service entry point.",
-    "placeholder": "Enter your corporate email",
-    "btn":         "Get Started Free"
+    "headline":    "Are you ready to enroll your children in Delta schools?",
+    "deck":        "We provide your children with the best modern learning tools to ensure their educational level, in order to build the future generation.",
+    "placeholderEmail": "Enter your corporate email",
+    "placeholderFullName": "Enter your full name",
+    "placeholderPhone": "Enter your phone number",
+    "btn":         "Get Started "
   },
   "footer": {
-    "brand":     "CompilationHub",
-    "copyright": "© 2024 CompilationHub. All rights reserved.",
-    "privacy":   "Privacy Policy",
-    "terms":     "Terms of Service",
-    "support":   "Contact Support"
+    "brand":     "Delta Schools",
+    "copyright": "© 2024 Delta Schools. All rights reserved."
   }
 }

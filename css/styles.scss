@@ -311,7 +311,9 @@ footer {
 }
 
 .footer-inner {
-    @include flex-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: $space-md;
 
@@ -322,17 +324,20 @@ footer {
 }
 
 .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
     font-family: $font-head;
     font-weight: 700;
     font-size: .97rem;
     color: $ink;
 
     span {
-        display: block;
         font-size: .78rem;
         font-weight: 400;
         color: $ink-muted;
-        margin-top: 2px;
+        margin-top: 0;
     }
 }
 
@@ -865,8 +870,14 @@ footer {
     // Global font swap for Arabic
     body { font-family: 'Cairo', 'DM Sans', sans-serif; }
 
-    // Hero blob flips to left side
-    .hero::after { right: auto; left: -120px; }
+.hero {
+    &::after {
+        right: auto;
+        left: -120px;
+        top: -90px;
+        rotate: 270deg;
+    }
+}
 
     // Float tag moves to left corner
     .hero-float-tag { right: auto; left: -16px; }
@@ -887,6 +898,7 @@ footer {
     // Mobile menu text alignment
     .mobile-menu a { text-align: right; }
 
+    .cta-form input { direction: rtl;  }
     // Footer
     .footer-inner { flex-direction: row-reverse; }
 

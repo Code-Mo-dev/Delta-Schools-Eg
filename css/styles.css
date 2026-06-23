@@ -280,9 +280,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 16px;
@@ -297,17 +297,27 @@ footer {
 }
 
 .footer-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
   font-family: "Sora", sans-serif;
   font-weight: 700;
   font-size: 0.97rem;
   color: #0D1B2A;
 }
 .footer-brand span {
-  display: block;
   font-size: 0.78rem;
   font-weight: 400;
   color: #7A8899;
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 .footer-links {
@@ -1063,6 +1073,8 @@ footer {
 [dir=rtl] .hero::after {
   right: auto;
   left: -120px;
+  top: -90px;
+  rotate: 270deg;
 }
 [dir=rtl] .hero-float-tag {
   right: auto;
@@ -1078,6 +1090,9 @@ footer {
 }
 [dir=rtl] .mobile-menu a {
   text-align: right;
+}
+[dir=rtl] .cta-form input {
+  direction: rtl;
 }
 [dir=rtl] .footer-inner {
   -webkit-box-orient: horizontal;
