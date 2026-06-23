@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "das":  "DAS",
+    "dils": "DILS",
+    "dmls": "DMLS",
+    "cta":  "Get Started"
+  },
+  "hero": {
+    "badge":    "Centralized Intelligence",
+    "headline": "A unified portal for all Delta schools",
+    "deck":     "The Delta Schools platform bridges the gap between disparate platforms, providing a high-performance entry point for DAS, DILS, and DMLS schools.",
+    "btnExplore": "Explore All Platforms",
+    "btnDocs":    "Technical Documentation",
+    "floatTag":   "3 platforms, 1 portal"
+  },
+  "ecosystem": {
+    "title": "Integrated Ecosystem",
+    "deck":  "Our hub provides direct access to the core pillars of our technical infrastructure. Each platform is optimised for specific organisational workflows.",
+    "das": {
+      "label":   "DAS",
+      "body":    "Data Analytics Service provides advanced computational power to process complex datasets and generate actionable business intelligence.",
+      "link":    "Visit DAS Portal"
+    },
+    "dils": {
+      "label":   "DILS",
+      "body":    "Digital Integration Layer Systems manage the seamless communication between legacy databases and modern cloud applications.",
+      "link":    "Visit DILS Portal"
+    },
+    "dmls": {
+      "label":   "DMLS",
+      "body":    "Dynamic Microservices Logistics handles the orchestration and scaling of containerised workloads across global regions.",
+      "link":    "Visit DMLS Portal"
+    }
+  },
+  "governance": {
+    "title": "Unified Governance",
+    "body":  "Our centralised authentication and permission model ensures that your transition between DAS, DILS, and DMLS is fluid and secure. Manage everything from a single administrative console.",
+    "check1": "Single Sign-On across all platforms",
+    "check2": "Universal data API endpoints",
+    "check3": "Consolidated billing and usage reporting",
+    "btnSpecs": "View Hub Specifications"
+  },
+  "cta": {
+    "headline":    "Ready to optimise your infrastructure?",
+    "deck":        "Join 500+ enterprises using CompilationHub as their primary service entry point.",
+    "placeholder": "Enter your corporate email",
+    "btn":         "Get Started Free"
+  },
+  "footer": {
+    "brand":     "CompilationHub",
+    "copyright": "© 2024 CompilationHub. All rights reserved.",
+    "privacy":   "Privacy Policy",
+    "terms":     "Terms of Service",
+    "support":   "Contact Support"
+  }
+}
