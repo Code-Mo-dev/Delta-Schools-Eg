@@ -4,15 +4,174 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delta Schools – A Unified Portal</title>
 
-  <!-- Arabic font (loaded alongside Sora/DM Sans in CSS) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- ─── PRIMARY META TAGS ───────────────────────────────────── -->
+  <title>Delta Schools – DAS, DILS & DMLS | Unified Education Portal – Mansoura, Egypt</title>
+  <meta name="description"
+    content="Delta Schools is the unified portal for Delta American School (DAS), Delta International Language School (DILS), and Delta Modern Language School (DMLS) in Mansoura, Egypt. Explore Cognia-accredited American curriculum education from KG to Grade 12." />
+  <meta name="keywords"
+    content="Delta Schools, Delta American School, DAS Mansoura, Delta International Language School, DILS, Delta Modern Language School, DMLS, American curriculum Egypt, international school Mansoura, Cognia accredited school Egypt, private school Mansoura, American diploma Egypt" />
+  <meta name="author" content="Delta Schools" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
 
-  <!-- Compiled stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Scripts -->
+  <!-- ─── CANONICAL URL ────────────────────────────────────────── -->
+  <link rel="canonical" href="https://delta-schools-eg-production.up.railway.app/" />
+
+  <!-- ─── OPEN GRAPH (Facebook / LinkedIn / WhatsApp) ──────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Delta Schools" />
+  <meta property="og:url" content="https://delta-schools-eg-production.up.railway.app/" />
+  <meta property="og:title" content="Delta Schools – Unified Education Portal" />
+  <meta property="og:description"
+    content="One portal for three world-class schools in Mansoura, Egypt. Delta American School, Delta International Language School, and Delta Modern Language School — explore, compare, and enroll online." />
+  <!-- ⚠️  Replace with your actual OG image (1200×630 px recommended) -->
+  <meta property="og:image" content="https://delta-schools-eg-production.up.railway.app/image/logo.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Delta Schools unified portal – DAS, DILS, DMLS" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_EG" />
+
+  <!-- ─── TWITTER / X CARD ─────────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Delta Schools – Unified Education Portal" />
+  <meta name="twitter:description"
+    content="Explore Delta American School, Delta International Language School, and Delta Modern Language School — all in one unified portal." />
+  <!-- ⚠️  Replace with your actual Twitter/X handle if you have one -->
+  <!-- <meta name="twitter:site" content="@DeltaSchoolsEG" /> -->
+  <meta name="twitter:image" content="https://delta-schools-eg-production.up.railway.app/image/logo.jpg" />
+  <meta name="twitter:image:alt" content="Delta Schools portal" />
+
+  <!-- ─── FAVICON & APPLE TOUCH ICON ──────────────────────────── -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#1A4FD8" />
+
+  <!-- ─── GEO / LOCAL SEO ──────────────────────────────────────── -->
+  <meta name="geo.region" content="EG-DK" />
+  <meta name="geo.placename" content="Mansoura, Dakahlia, Egypt" />
+  <meta name="geo.position" content="31.0364;31.3807" />
+  <meta name="ICBM" content="31.0364, 31.3807" />
+
+  <!-- ─── STRUCTURED DATA — JSON-LD ───────────────────────────── -->
+
+  <!-- 1. Organisation -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Delta Schools",
+    "url": "https://delta-schools-eg-production.up.railway.app/",
+    "logo": "https://delta-schools-eg-production.up.railway.app/image/logo.jpg",
+    "description": "Delta Schools is the unified portal for DAS, DILS, and DMLS — three leading private schools in Mansoura, Egypt offering American-curriculum and language education.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mansoura",
+      "addressRegion": "Dakahlia",
+      "addressCountry": "EG"
+    },
+    "sameAs": []
+  }
+  </script>
+
+  <!-- 2. Delta American School (DAS) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "Delta American School (DAS)",
+    "url": "https://delta-american-school.up.railway.app/",
+    "image": "https://delta-schools-eg-production.up.railway.app/image/DASImage.jpg",
+    "description": "Delta American School is a Cognia-accredited international school in Mansoura, Egypt offering an American curriculum from kindergarten through Grade 12, developing future leaders since 2011.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mansoura",
+      "addressRegion": "Dakahlia",
+      "addressCountry": "EG"
+    },
+    "foundingDate": "2011",
+    "accreditation": "Cognia",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Delta Schools"
+    }
+  }
+  </script>
+
+  <!-- 3. Delta International Language School (DILS) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "Delta International Language School (DILS)",
+    "url": "https://delta-international-school.netlify.app/",
+    "image": "https://delta-schools-eg-production.up.railway.app/image/DILSImage.jpg",
+    "description": "Delta International Language School in Mansoura offers an internationally accredited American Diploma program, preparing students for international university entrance exams.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mansoura",
+      "addressRegion": "Dakahlia",
+      "addressCountry": "EG"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Delta Schools"
+    }
+  }
+  </script>
+
+  <!-- 4. Delta Modern Language School (DMLS) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "Delta Modern Language School (DMLS)",
+    "image": "https://delta-schools-eg-production.up.railway.app/image/DMLSImage.jpg",
+    "description": "Delta Modern Language School in Mansoura is a private national-curriculum school integrating the Ministry's curricula in English with activities from kindergarten to secondary school.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mansoura",
+      "addressRegion": "Dakahlia",
+      "addressCountry": "EG"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Delta Schools"
+    }
+  }
+  </script>
+
+  <!-- 5. WebSite with Sitelinks Searchbox -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Delta Schools",
+    "url": "https://delta-schools-eg-production.up.railway.app/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://delta-schools-eg-production.up.railway.app/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ─── PERFORMANCE HINTS ─────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
+  <!-- Arabic font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- ─── STYLESHEET & SCRIPTS (unchanged from original) ──────── -->
+  <link rel="stylesheet" href="css/styles.css" />
   <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
 
